@@ -2,7 +2,7 @@
 
 Gần đây chúng tôi đã xuất bản 2 bài hướng dẫn để cho bạn làm quen với Git cơ bản và sử dụng Git trong môi trường nhóm. Những lệnh mà chúng ta đã thảo luận đã đủ đề cho lập trình viên tồn tại trong thế giới Git. Trong bài viết này chúng ta sẽ thử khám phá làm thế nào để quản lý thời gian của bạn hiệu quả và tận dụng tính năng mà Git cung cấp.
 
-Lưu ý: Một vài lệnh trong bài viết này bao gồm một phần của lệnh trong dấu ngoặc vuông. Ví dụ (git add -p [file_name]) . Trong những ví dụ đó, bạn sẽ cần thêm vào những số, định danh,…cần thiết không có ngoặc vuông.
+Lưu ý: Một vài lệnh trong bài viết này bao gồm một phần của lệnh trong dấu ngoặc vuông. Ví dụ (git add -p [file_name]) . Trong những ví dụ đó, bạn sẽ cần thêm vào những số, định danh (ID),… cần thiết không có ngoặc vuông.
 
 ## 1. Tự động hoàn thành lệnh Git
 
@@ -114,7 +114,7 @@ Giống như bạn thấy, chúng ta đã thêm dòng đầu và dòng thứ 3 v
 
 ## 7. Nén (Squash) nhiều commit
 
-Khi bạn submit code của bạn cho việc xem xét (review) và tạo một pull request ( nó xảy ra thường xuyên trong những dự án mở ), bạn đã có thể được yêu cầu để tạo một thay đổi cho code của bạn trước khi nó được chấp nhận. Bạn tạo sự thay đổi, chỉ để yêu cầu thay đổi nó lần nữa trong lần xem xét tiếp theo. Trước khi bạn biết nó, bạn có một vài lượt commit thêm. Theo ý tưởng, bạn có thể nén chúng vào trong một bằng việc sửa dụng lệnh ```rebase```.
+Khi bạn submit code của bạn cho việc xem xét (review) và tạo một pull request ( nó xảy ra thường xuyên trong những dự án mở ), bạn đã có thể được yêu cầu để tạo một thay đổi cho code của bạn trước khi nó được chấp nhận. Bạn tạo sự thay đổi, chỉ để yêu cầu thay đổi nó lần nữa trong lần xem xét (review) tiếp theo. Trước khi bạn biết nó, bạn có một vài lượt commit thêm. Theo ý tưởng, bạn có thể nén chúng vào trong một bằng việc sửa dụng lệnh ```rebase```.
 
 ```
 
@@ -130,7 +130,7 @@ git rebase -i HEAD~2
 
 ```
 
-Với việc chạy lệnh này, bạn sẽ được đưa đến một giao diện tương tác liệt kê những lượt commit và yêu cầu bạn cái nào dùng để nén. Theo ý tưởng, bạn chạy ```pick``` vào commit cuối và chạy ```squash``` những cái cũ.
+Với việc chạy lệnh này, bạn sẽ được đưa đến một giao diện tương tác liệt kê những lượt commit và yêu cầu bạn chọn cái nào dùng để nén. Theo ý tưởng, bạn chạy ```pick``` vào commit cuối và chạy ```squash``` những cái cũ.
 
 ![ahihi](https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2014/06/1402946455git-ninja-10.png)
 
@@ -166,7 +166,7 @@ git stash apply
 
 ```
 
-Trong ảnh chụp màn hình cuối, bạn có thể thấy mỗi lần giấu (stash) có một ID, một số duy nhất ( mặc dù chúng ta chỉ có một lần giấu (stash) trong trường hợp này ). Trong trường hợp bạn muốn áp dụng với những (stash) được chọn, bạn có thể thêm những ID rõ ràng vào lệnh ```apply```:
+Trong ảnh chụp màn hình cuối, bạn có thể thấy mỗi lần giấu (stash) có một định danh (ID), một số duy nhất ( mặc dù chúng ta chỉ có một lần giấu (stash) trong trường hợp này ). Trong trường hợp bạn muốn áp dụng với những (stash) được chọn, bạn có thể thêm những định danh (ID) rõ ràng vào lệnh ```apply```:
 
 ```
 
@@ -194,7 +194,7 @@ Bạn có thể thấy commit bị mất ở đây. Bạn có thể kiểm tra n
 ```git fsck``` có sự thuận tiện hơn ```reflog```. Giả sửa bạn đã xóa một nhánh và sau đó clone repository. Với lệnh ```fsck```bạn có thể tìm kiếm và khôi phục nhánh bị xóa.
 
 
-## 10. Hái anh đào ( lấp liếm )
+## 10. Hái anh đào ( Cherry Pick )
 
 Tôi đã lưu nhiều lệnh Git hay nhất cho người cuối cùng. Lệnh ```cherry-pick``` là lệnh Git yêu thích của tôi, bởi vì nghĩa đen cũng như tiện ích của nó vậy.
 
@@ -218,4 +218,4 @@ Mặc dù chúng ta có một ```cherry-pick``` sạch trong lần này, bạn n
 
 ## Kết luận
 
-Với điều này, chúng ta đến phần cuối của danh sách những mẹo mà tôi nghĩ có thể giúp kỹ năng dùng Git của bạn lên một cấp độ mới. Git là tốt nhất hiện có và nó có thể hoàn thành bất cứ điều gì mà bạn tưởng tượng. Vì vậy, thường xuyên thử thách thức bản thân với Git. Rất có thể, bạn sẽ kết thúc việc học một cái gì đó mới.
+Với điều này, chúng ta đến phần cuối của danh sách những mẹo mà tôi nghĩ có thể giúp kỹ năng dùng Git của bạn lên một cấp độ mới. Git là tốt nhất hiện có và nó có thể hoàn thành bất cứ điều gì mà bạn tưởng tượng. Vì vậy, thường xuyên thử thách thức bản thân với Git. Rất có thể, bạn sẽ học được một cái gì đó mới.
