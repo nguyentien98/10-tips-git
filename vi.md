@@ -56,7 +56,7 @@ Và trong ảnh chụp màn hình bên dưới, bạn có thể lệnh này trô
 
 Chúng ta đã một cái nhìn về việc sử dụng ```git log``` trong một hướng dẫn trước đó, tuy nhiên, đó là 3 lựa chọn mà bạn nên biết đến.
 
-* ```--oneline``` – Nén thông tin hiển thị bên cạnh mỗi commit thành một mã hash đã được tối giản của commit và lời nhắn commit, tất cả hiển thị trong một dòng.
+* ```--oneline``` – Nén thông tin hiển thị bên cạnh mỗi commit thành một mã commit hash đã được tối giản của commit và lời nhắn commit, tất cả hiển thị trong một dòng.
 * ```--graph``` – Lựa chọn này vẽ một biểu diễn đồ họa dựa trên văn bản của lịch sử ở bên tay trái của output. Không sử dụng nếu bạn đang xem lịch sử của một nhánh đơn.
 * ```--all``` – Hiển thị lịch sử của tất cả nhánh
 
