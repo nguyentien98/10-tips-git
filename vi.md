@@ -78,7 +78,7 @@ Tuy nhiên, lệnh ```git reflog``` cho bạn thấy một commit (```b1b0ee9 �
 
 ## 6. Stage các phần của một file đã thay đổi cho một commit
 
-Nó nói chung là một lần thực hành tốt để tạo những commit dựa trên tính năng, nghĩa la một commit phải dựa trên tính một tính năng hoặc một sửa lỗi. Hãy xem xét điều gì xảy ra khi bạn sửa hai lỗi, hoặc thêm nhiều những tính năng mà không commit những thay đổi đó. Trong một hoàn cảnh như vậy, bạn nên để những thay đổi trong một lần commit. Nhưng đây là một cách tốt hơn: Stage những file riêng biệt và commit chúng tách riêng nhau.
+Nó nói chung là cách làm tốt để tạo những commit dựa trên tính năng, nghĩa la một commit phải dựa trên tính một tính năng hoặc một sửa lỗi. Hãy xem xét điều gì xảy ra khi bạn sửa hai lỗi, hoặc thêm nhiều những tính năng mà không commit những thay đổi đó. Trong một hoàn cảnh như vậy, bạn nên để những thay đổi trong một lần commit. Nhưng đây là một cách tốt hơn: Stage những file riêng biệt và commit chúng tách riêng nhau.
 
 Giả sử bạn đã thực hiện nhiều thay đổi đến một file và muốn nó hiển thị trong những commit riêng biệt. Trong trường hợp này, chúng ta thêm những file đó bằng tiền tố ```-p``` vào những lệnh của chúng ta.
 
