@@ -112,9 +112,9 @@ Giống như bạn thấy, chúng ta đã thêm dòng đầu và dòng thứ 3 v
 
 ![ahihi](https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2014/06/1402946454git-ninja-09.png)
 
-## 7. Nén nhiều commit
+## 7. Nén (Squash) nhiều commit
 
-Khi bạn submit code của bạn cho việc xem xét và tạo một pull request ( nó xảy ra thường xuyên trong những dự án mở ), bạn đã có thể được yêu cầu để tạo một thay đổi cho code của bạn trước khi nó được chấp nhận. Bạn tạo sự thay đổi, chỉ để yêu cầu thay đổi nó lần nữa trong lần xem xét tiếp theo. Trước khi bạn biết nó, bạn có một vài lượt commit thêm. Theo ý tưởng, bạn có thể nén chúng vào trong một bằng việc sửa dụng lệnh ```rebase```.
+Khi bạn submit code của bạn cho việc xem xét (review) và tạo một pull request ( nó xảy ra thường xuyên trong những dự án mở ), bạn đã có thể được yêu cầu để tạo một thay đổi cho code của bạn trước khi nó được chấp nhận. Bạn tạo sự thay đổi, chỉ để yêu cầu thay đổi nó lần nữa trong lần xem xét tiếp theo. Trước khi bạn biết nó, bạn có một vài lượt commit thêm. Theo ý tưởng, bạn có thể nén chúng vào trong một bằng việc sửa dụng lệnh ```rebase```.
 
 ```
 
