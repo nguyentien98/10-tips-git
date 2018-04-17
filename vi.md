@@ -6,7 +6,7 @@ Lưu ý: Một vài lệnh trong bài viết này bao gồm một phần của l
 
 ## 1. Tự động hoàn thành lệnh Git
 
-Nếu bạn chạy những lệnh thông qua CMD (command line), nó là nhiệm vụ mệt mỏi khi tự mình viết những lệnh. Để giúp điều đó, bạn có thể bật tính năng tự động hoàn thành lệnh của Git trong vài phút.
+Nếu bạn chạy những lệnh thông qua CMD đfdfd, nó là nhiệm vụ mệt mỏi khi tự mình viết những lệnh. Để giúp điều đó, bạn có thể bật tính năng tự động hoàn thành lệnh của Git trong vài phút.
 
 Để có được script này, chạy lệnh sau trên một hệ thống Unix:
 
@@ -52,7 +52,7 @@ Và trong ảnh chụp màn hình bên dưới, bạn có thể lệnh này trô
 
 ![ahihi](https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2014/06/1402946441git-ninja-02.png)
 
-## 4. Lịch sử đánh giá của repository
+## 4. Lịch sử đánh giá của dsd
 
 Chúng ta đã một cái nhìn về việc sử dụng ```git log``` trong một hướng dẫn trước đó, tuy nhiên, đó là 3 lựa chọn mà bạn nên biết đến.
 
@@ -64,7 +64,7 @@ Chúng ta đã một cái nhìn về việc sử dụng ```git log``` trong mộ
 
 ![ahihi](https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2014/06/1402946444git-ninja-03.png)
 
-## 5. Đừng bao giờ quên theo dõi một commit
+
 
 Hãy nói bạn đã commit một vài thứ nhưng bạn không muốn tiếp tục và thành ra bạn làm một reset cứng để quay lại trạng thái trước của bạn. Sau đó, bạn thấy bạn mất một vài thông tin khác trong tiến trình và muốn lấy lại nó, hoặc ít nhất là thấy nó. Đây là nơi có thể giúp ```git reflog```.
 
