@@ -64,11 +64,11 @@ Chúng ta đã một cái nhìn về việc sử dụng ```git log``` trong mộ
 
 ![ahihi](https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2014/06/1402946444git-ninja-03.png)
 
-## 5. Đừng bao giờ quên theo dõi một commit
+## 5. Không bao giờ bỏ xót theo dõi một commit
 
 Hãy nói bạn đã commit một vài thứ nhưng bạn không muốn tiếp tục và thành ra bạn làm một reset cứng để quay lại trạng thái trước của bạn. Sau đó, bạn thấy bạn mất một vài thông tin khác trong tiến trình và muốn lấy lại nó, hoặc ít nhất là thấy nó. Đây là nơi có thể giúp ```git reflog```.
 
-Một lệnh ```git log``` đơn giản cho bạn thấy lượt commit cuối cùng, tiền thân của nó, tiền thân của tiền thân của nó và vân vân.  Tuy nhiên, ```git reflog``` là một danh sách những commit mà phần đầu đã được chỉ đến. Nhớ rằng nó là nội bộ trong hệ thống của bạn; nó không phải là một phần của repository của bạn và không bao gồm trong push hoặc merge.
+Một lệnh ```git log``` đơn giản cho bạn thấy lượt commit cuối cùng, tiền thân của nó, tiền thân của tiền thân của nó và vân vân.  Tuy nhiên, ```git reflog``` là một danh sách những commit mà phần head đã được chỉ đến. Nhớ rằng nó là phần nội bộ (local) trong hệ thống của bạn; nó không phải là một phần của repository của bạn và không bao gồm trong push hoặc merge.
 Nếu tôi chạy ```git log```, tôi có được những commit mà chúng là một phần của repository của tôi:
 
 ![ahihi](https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2014/06/1402946446git-ninja-04.png)
@@ -76,7 +76,7 @@ Nếu tôi chạy ```git log```, tôi có được những commit mà chúng là
 Tuy nhiên, lệnh ```git reflog``` cho bạn thấy một commit (```b1b0ee9 – HEAD@{4}```) đã bị mất khi tôi thực hiện một reset cứng:
 ![ahihi](https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2014/06/1402946447git-ninja-05.png)
 
-## 6. Stage một phần của một file đã thay đổi cho một commit
+## 6. Stage các phần của một file đã thay đổi cho một commit
 
 Nó nói chung là một lần thực hành tốt để tạo những commit dựa trên tính năng, nghĩa la một commit phải dựa trên tính một tính năng hoặc một sửa lỗi. Hãy xem xét điều gì xảy ra khi bạn sửa hai lỗi, hoặc thêm nhiều những tính năng mà không commit những thay đổi đó. Trong một hoàn cảnh như vậy, bạn nên để những thay đổi trong một lần commit. Nhưng đây là một cách tốt hơn: Stage những file riêng biệt và commit chúng tách riêng nhau.
 
