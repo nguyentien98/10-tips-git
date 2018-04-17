@@ -39,7 +39,7 @@ my_db_config/
 
 ## 3. Ai đã làm xáo trộn code của tôi?
 
-Nó là bản năng tự nhiên của con người đổ lỗi cho những người khác khi có một vài thứ sai. Nếu server sản phẩm của bạn bị lỗi, thật dễ dang để tìm ra thủ phạm - chỉ cần chạy ```git blame```. Nó là một lệnh cho bạn thấy tác giả của mọi dòng trong một tệp tin, commit đã cho thấy thay đổi cuối cùng trong dòng đó, và mốc thời gian của commit.
+Nó là bản năng tự nhiên của con người đổ lỗi cho những người khác khi có một vài thứ sai. Nếu server sản phẩm của bạn bị lỗi, thật dễ dàng để tìm ra thủ phạm - chỉ cần chạy ```git blame```. Nó là một lệnh cho bạn thấy tác giả của mọi dòng trong một tệp tin, commit đã cho thấy thay đổi cuối cùng trong dòng đó, và mốc thời gian của commit.
 
 ```
 git blame [file_name]
@@ -52,7 +52,7 @@ Và trong ảnh chụp màn hình bên dưới, bạn có thể lệnh này trô
 
 ![ahihi](https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2014/06/1402946441git-ninja-02.png)
 
-## 4. Lịch sử đánh giá của repository
+## 4. Xem lại lịch sử của repository
 
 Chúng ta đã một cái nhìn về việc sử dụng ```git log``` trong một hướng dẫn trước đó, tuy nhiên, đó là 3 lựa chọn mà bạn nên biết đến.
 
