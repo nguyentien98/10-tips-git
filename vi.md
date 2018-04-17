@@ -1,6 +1,6 @@
 # 10 mẹo để giúp kỹ năng Git của bạn tiến bộ lên cấp độ mới
 
-Gần đây chúng tôi đã xuất bản 2 bài hướng dẫn để cho bạn làm quen với Git cơ bản và sử dụng Git trong môi trường nhóm. Những lệnh mà chúng ta đã thảo luận  là về những gì đủ đề cho lập trình viên tồn tại trong thế giới Git. Trong bài viết này chúng ta sẽ thử khám phá làm thế nào để quản lý thời gian của bạn hiệu quả và tận dụng tính năng mà Git cung cấp.
+Gần đây chúng tôi đã xuất bản 2 bài hướng dẫn để cho bạn làm quen với Git cơ bản và sử dụng Git trong môi trường nhóm. Những lệnh mà chúng ta đã thảo luận đã đủ đề cho lập trình viên tồn tại trong thế giới Git. Trong bài viết này chúng ta sẽ thử khám phá làm thế nào để quản lý thời gian của bạn hiệu quả và tận dụng tính năng mà Git cung cấp.
 
 Lưu ý: Một vài lệnh trong bài viết này bao gồm một phần của lệnh trong dấu ngoặc vuông. Ví dụ (git add -p [file_name]) . Trong những ví dụ đó, bạn sẽ cần thêm vào những số, định danh,…cần thiết không có ngoặc vuông.
 
